@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="items">
                 <div><a className="home" href="#cenas1">Home</a></div>
                 <div><a className="about" href="#cenas">About me</a></div>
-                <div><a className="contact" href="#about">Contacts</a></div>
+                <div><a className="contact" href="#cenas2">Contacts</a></div>
             </div>
         </nav>
     );
