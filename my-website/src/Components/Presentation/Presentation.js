@@ -2,7 +2,7 @@ import './index.css'
 
 export default function Footer() {
     return(
-        <div id="cenas1" className="presentation">
+        <div id="home" className="presentation">
             <div className="presentation-text">
                 <div className="text-box">
                     <p className="text"><b className="hi">Hi</b>, I'm<span className="name2"> Guilherme</span> Faria</p>

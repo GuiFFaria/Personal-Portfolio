@@ -2,7 +2,7 @@ import "./index.css";
 
 export default function AboutMe() {
     return (
-        <div id="cenas2" className="footer">
+        <div id="contacts" className="footer">
             <h1 className="title">Contact Me</h1>
             <div className="contact-box">
                 <div className="contacts">

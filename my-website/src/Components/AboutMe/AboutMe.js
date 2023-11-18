@@ -32,7 +32,7 @@ export default function AboutMe() {
 
     return(
         <>
-        <div id="cenas" className="about-me">
+        <div id="about" className="about-me">
             <div className="about-image">
                 <img className="image1" src={require("../../Assets/IMG_8050.jpg")} alt="Guilherme Faria"></img>
             </div>
