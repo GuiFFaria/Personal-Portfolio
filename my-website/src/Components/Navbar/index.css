@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+}
+
+.logo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    margin-right: 0.1rem;
+}
+
+.dot{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: red;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.about{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.about:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.home{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.home:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.contact{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.contact:hover{
+    color: red;
+    cursor: pointer;
+}
