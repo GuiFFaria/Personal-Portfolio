@@ -72,4 +72,5 @@
     height: 100%;
     width: 60%;
     border-radius: 10%;
+    border: solid 4px red;
 }

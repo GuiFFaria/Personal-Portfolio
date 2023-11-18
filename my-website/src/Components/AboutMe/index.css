@@ -1,11 +1,9 @@
-.linha{
-    margin-top: 3%;
-}
+
 .about-me{
     display: flex;
     flex-direction: row;
     background: black;
-    margin-top: -0.5rem;
+    margin-top: 2%;
     height: 80%;
     width: 100%;
     padding-top: 10%;
@@ -25,6 +23,7 @@
     height: 100%;
     width: 80%;
     border-radius: 20%;
+    border: solid 5px red;
 }
 
 .about-text{
@@ -111,7 +110,4 @@
     margin-bottom: 0.5rem;
 }
 
-.linha2{
-    margin: 0;
-}
 

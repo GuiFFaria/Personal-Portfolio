@@ -7,6 +7,8 @@
     align-items: center;
     padding: 1rem;
     position: fixed;
+    border-bottom: solid 2px red;
+    z-index: 2;
 }
 
 .logo{

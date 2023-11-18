@@ -32,10 +32,9 @@ export default function AboutMe() {
 
     return(
         <>
-        <hr className="linha" width="100%" color="red"></hr>
         <div id="cenas" className="about-me">
             <div className="about-image">
-                <img className="image1" src={require("../../Assets/trajado.JPG")} alt="Guilherme Faria"></img>
+                <img className="image1" src={require("../../Assets/IMG_8050.jpg")} alt="Guilherme Faria"></img>
             </div>
             <div className="about-text">
                 <div className="text1">
@@ -52,7 +51,7 @@ export default function AboutMe() {
                     <div className="skills-title">
                         <h3 className={isSkillsActive ? "skills-title-text-active": "skills-title-text"} onClick={handleSkills}>Soft Skills</h3>
                         <h3 className={isTechActive ? "skills-title-text-active": "skills-title-text"} onClick={handleTechnologies}>Technologies</h3>
-                        <h3 className={isEdActive ? "skills-title-text-active": "skills-title-text"} onClick={handleEducation}>Experience</h3>
+                        <h3 className={isEdActive ? "skills-title-text-active": "skills-title-text"} onClick={handleEducation}>Education</h3>
                     </div>
                     <div className="skills-content">
                         {tab === "" && (
@@ -89,7 +88,6 @@ export default function AboutMe() {
                 </div>
             </div>
         </div>
-        <hr className="linha2" width="100%" color="red"></hr>
         </>
     );
 }
